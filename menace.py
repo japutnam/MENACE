@@ -17,7 +17,7 @@ import sys
 starting_brain_file = sys.argv[1]
 ending_brain_file=sys.argv[2]
 
-print "hello world", starting_brain_file,ending_brain_file
+print "MENACE", starting_brain_file,ending_brain_file
 
 def draw_board(state):
         print state[1],"|",state[2],"|",state[3]
@@ -78,7 +78,7 @@ def best_rotation(state):
 
 class Matchbox:
     def __init__(self, position={1:' ', 2:' ', 3:' ', 4:' ', 5:' ', 6:' ', 7:' ', 8:' ', 9:' ' } ):
-        print "made",self
+	    #print "made",self
         self.contents = {} #  1:4, 2:4, 3:4, 4:4, 5:4, 6:4, 7:4, 8:4, 9:4  }
         for color in range(1,10):
             if position[color]==' ' :
@@ -295,7 +295,7 @@ while True:
     play_game()
     a = raw_input("Play again?")
     print a
-    if a=="N":
+    if a=="N" or a=="n":
         break
 
 b.save_to_file(ending_brain_file)
