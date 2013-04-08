@@ -1,3 +1,12 @@
+"""menace.py is a Python version of Donald Michie's Matchbox Educable Naughts And Crosses Engine (MENACE) Penguin Science Survey 1961, Vol 2.
+
+Originally written on Easter Sunday, March 31,2013 by Nicholas Putnam with help from his father, James and his son David Asahel.
+
+An public github repository for the code is at https://github.com/japutnam/MENACE.git
+
+To run in a Mac OS terminal, put the program into a directory then issue the command: python menace.py <starting_brain_file> <ending_brain_file>
+
+"""
 
 import random
 import sys
