@@ -13,4 +13,4 @@ with help from his father, James and his son David Asahel.
 A public github repository for the code is at https://github.com/japutnam/MENACE.git
 
 To run in a Mac OS terminal, put the program into a directory then issue the command:
-python menace.py <starting_brain_file> <ending_brain_file>
+python menace.py  starting_brain_file  ending_brain_file
